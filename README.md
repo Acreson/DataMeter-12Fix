@@ -12,10 +12,10 @@
 
 介绍：兼容IOS7-12上以系统和64位支持
  
-~~~通知中心显示wifi和数据流量信息
-~~~状态显示数据传转速率
-~~~按天,周,月显示数据使用情况
-~~~可通过设置选项自定义显示
+--通知中心显示wifi和数据流量信息
+--状态显示数据传转速率
+--按天,周,月显示数据使用情况
+--可通过设置选项自定义显示
 
 
 插件已经patcher并且修复在IOS12上RootlessJB中完美工作
@@ -58,10 +58,10 @@ Compatible with iOS 7, 8, 9, 10 ，11 and 12（RootlessJB)
 
 Language: Chinese & English
 
-~~~Notification Center widget display wifi and data traffic information
-~~~Status Bar Display Network Data Rate 
-~~~By day, week, month display data usage
-~~~Configure Notifications from Settings
+---Notification Center widget display wifi and data traffic information
+---Status Bar Display Network Data Rate 
+---By day, week, month display data usage
+---Configure Notifications from Settings
 
 
 The plug-in has patcher and fixes work perfectly in RootlessJB on IOS12
@@ -75,16 +75,16 @@ Inject some medicineswhen everything is injected
 
 The command is
 
-inject /var/LIB/MobileSubstrate/DynamicLibraries/*.dylib
+~inject /var/LIB/MobileSubstrate/DynamicLibraries/*.dylib
 
-inject /var/LIB/PreferenceBundles/*.bundle
+~inject /var/LIB/PreferenceBundles/*.bundle
 
-inject /System/WeeAppPlugins/*.bundle
+~inject /System/WeeAppPlugins/*.bundle
 
 
 Quick and convenient
 And then execute the logout
-Killall SpringBoard
+~Killall SpringBoard
 
 If you feel trouble, you can directly restart the activation, and then go to the Settings of the plug-in configuration.
 If you have any questions, please send them to twitter. Thank you！
