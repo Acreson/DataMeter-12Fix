@@ -29,7 +29,7 @@ inject /var/LIB/MobileSubstrate/DynamicLibraries/*.dylib
 
 inject /var/LIB/PreferenceBundles/*.bundle 
 
-injecy /System/WeeAppPlugins/*.bundle
+inject /System/WeeAppPlugins/*.bundle
 
 快捷方便
 然后执行注销
